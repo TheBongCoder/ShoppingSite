@@ -1,0 +1,141 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-color: #f1f3f4;
+	font-family: sans-serif;
+}
+.top-nav-bar
+{
+	height: 57px;
+	top: 0;
+	position: sticky;
+	background:#fff;
+	margin-bottom: 20px;
+	border-bottom: 3px solid orange;
+	z-index: 2;  
+}
+.logo
+{
+	height: 40px;
+	margin: 5px 10px;	
+}
+.form-control
+{
+	margin-top: 9px;
+	margin-left: 30px;
+	border: 1px solid orange !important;
+	border-top-left-radius: 20px !important;
+	border-bottom-left-radius: 20px !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important; 
+	box-shadow: none !important ;
+}
+.input-group-text
+{
+	background: orange !important;
+	border: 1px solid orange !important;
+	margin: 8.5px 10px 3px 0 !important;
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	border-top-right-radius: 20px !important;
+	border-bottom-right-radius: 20px !important;
+	cursor: pointer;
+}
+.search-box
+{
+	display: inline-flex;
+	width: 60%;
+}
+.fa-search
+{
+	color: black;
+}
+.menu-bar
+{
+	width: 40%;
+	height: 57px;
+	float: right;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	float: right;
+}
+.menu-bar ul li
+{
+	border-left: 1px solid white;
+	list-style-type: none;
+	padding: 15px 35px;
+	text-align: center;
+	background-color: orange;
+	cursor: pointer;
+}
+.menu-bar ul li a
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+.fa-shopping-cart
+{
+	margin-right: 5px; 
+}
+
+
+/*-------------------side-menu--------------------------*/
+
+.side-menu
+{
+	height: 80%;
+	width:15%;
+	font-size: 14px;
+	float: left;
+	z-index: 2;
+	background-color: #ddd;
+	outline: 0.6%;
+
+}
+.side-menu ul
+{
+	margin-left: 15px;
+}
+.side-menu ul li
+{
+	font-family: sans-serif;
+	list-style-type: none;
+	margin-top: 10px;
+	cursor: pointer;
+	color: black; 
+}
+.side-menu ul li:hover
+{
+	color: orange;
+}
+
+/*-----------------------slider css-------------------*/
+
+.slider
+{
+	
+	width: 85%;
+	margin-left: 15%;
+	padding: 0 10px;
+}
+.carousel
+{
+
+	box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+}
+.carousel-indicators
+{
+	z-index: 1 !important;
+}
+.carousel-inner
+{
+	height: 80%;
+}

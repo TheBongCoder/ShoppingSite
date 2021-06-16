@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Registration </title>
+		<link rel="stylesheet" type="text/css" href="Style6.css">
+		<script type="text/javascript">
+function matchpass(){
+var firstpassword=document.f1.renterpass.value;
+var secondpassword=document.f1.rconpass.value;
+
+if(firstpassword==secondpassword){
+return true;
+}
+else{
+alert("password must be same!");
+return false;
+}
+}
+</script>
+	</head>
+	<body>
+		<div class="Registration">
+			
+			<h1> Registration </h1>
+			<form name="f1" action="store.jsp" method="post" onsubmit="return matchpass()">
+				<input type="text" name="rname"placeholder="Enter Name"><br><br>
+				<input type="Email" name="remail"placeholder="Enter Email ID"><br><br>
+				<input type="number" name="rcon"placeholder="Enter Contact No."><br><br>
+				<input type="text" name="ruser"placeholder="Create Username"><br><br>
+				<input type="Password" name="renterpass"placeholder="Create Password"><br><br>
+				<input type="Password" name="rconpass"placeholder="Re-enter Password"><br><br>
+				<input type="Submit" name=""value="Register"><br>
+				<a href="login.html"> Already Logged In? </a>
+				
+			</form>
+		</div>	
+	</body>
+</html>

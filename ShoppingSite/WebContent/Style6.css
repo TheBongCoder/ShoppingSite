@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+body{
+	background-image: url(IMAGES/trip.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	font-family: sans-serif;
+}
+.Registration{
+	text-align: center;
+	width: 380px;
+	height: 520px;
+	background: #000;
+	opacity: 0.8;
+	color:#fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding:20px 0px; 
+
+}
+.Registration input{
+	width: 80%;
+	
+}
+.Registration input[type="text"],input[type="Email"],input[type="number"],input[type="text"],
+ input[type="password"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.Registration input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	
+}
+.Registration input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.Registration a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+.Registration a:hover
+{
+	color: #ffc107;
+}

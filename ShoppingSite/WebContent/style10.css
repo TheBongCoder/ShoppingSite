@@ -1,0 +1,36 @@
+.container
+{
+	margin-top: 100px; 
+}
+.newarrival  
+{
+	background: red;
+	width: 50px;
+	color: white;
+	font-size: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.col-md-3 h3
+{
+	color: #555;
+}
+.stars
+{
+		height: 15px;
+}
+.price
+{
+	color: #FE980F;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+.row input[type="submit"]
+
+{
+	background: orange;
+	color: #FFFFFF;
+	font-size: 15px;
+	margin-left: 20px;
+}
